@@ -26,7 +26,7 @@ body {
 /* letter and paragraph */
 .letter {
       display:flex;
-      align-items: center;
+      align-items: right;
 }
 
 .letter h1 {
