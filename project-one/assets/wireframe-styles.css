@@ -49,6 +49,7 @@ body {
 
           .letter-box p {
             height: 300px;
+            width:100px;
             padding:0;
             background-color: #008282;
           }
