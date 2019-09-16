@@ -17,11 +17,11 @@ body {
 }
 
 .headline-box {
-  height: 338px;
-  width: 316px;
   padding: 0;
   background-color: #FF0000;
   margin-left: 454px;
+  width: 50%;
+  margin-left: 50%
 }
 
           h2 {
@@ -41,13 +41,10 @@ body {
 }
 
           .letter-box-Q h1 {
-            line-height: 400px;
+            line-height: 600px;
             font-size: 600px;
-            height: 467px;
-            width: 483px;
             padding: 0;
             margin: 0;
-            background-color: #03DBF3;
             margin-bottom: 0;
           }
 
