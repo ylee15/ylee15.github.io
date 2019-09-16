@@ -28,7 +28,7 @@ body {
   background-color: #FDA6F7;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: left;
 }
 
           .letter-box h1 {
