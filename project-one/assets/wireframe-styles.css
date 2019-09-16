@@ -31,19 +31,32 @@ body {
   justify-content: space-between;
 }
 
-          .letter h1 {
+          .letter-box h1 {
             height: 472px;
             width: 483px;
             padding: 0;
             margin: 0;
             background-color: #03DBF3;
+            margin-bottom: 0;
           }
 
-          #button {
+          .letter-box #button {
             height: 43px;
             width: 43px;
             background-color: #7EFF7E;
+            margin-left: 10px;
           }
+
+          .letter-box p {
+            height: 200px;
+            padding:0;
+            background-color: #008282;
+          }
+
+.scrollbars {
+  height: 150px;
+  background-color: #ecca67;
+}
 footer {
 
 }
