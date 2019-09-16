@@ -49,9 +49,10 @@ body {
 
           .letter-box p {
             height: 300px;
-            width:200px;
+            width: 210px;
             padding:0;
             background-color: #008282;
+            margin-bottom: 50px;
           }
 
 .scrollbars {
