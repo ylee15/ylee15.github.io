@@ -57,14 +57,15 @@ body {
 
 .scrollbars {
   height: 150px;
-  width: 300px;
+  width: 400px;
   background-color: #ecca67;
   justify-content: left;
   margin-top: 40px;
-
+  margin-left: 40px;
 }
-footer {
 
+footer {
+  justify-content: right;
 }
           footer img {
             height:84px;
