@@ -16,7 +16,7 @@ body {
 }
 
 .headline-box {
-  height: 338px;
+  height: 200px;
   width: 100%;
   background-color: #FF0000;
 }
@@ -65,6 +65,7 @@ body {
 }
 
 footer {
+  background-color: #bada55;
   justify-content: right;
   display: flex;
   align-items: flex-end;
