@@ -21,7 +21,7 @@ body {
   width: 50%;
   padding: 0;
   background-color: #FF0000;
-  justify-content: right;
+  margin-left: 300px;
 }
 
 .letter-box {
@@ -68,7 +68,6 @@ body {
 
 footer {
   background-color: #bada55;
-  justify-content: right;
   display: flex;
   margin-top: 40px;
 }
