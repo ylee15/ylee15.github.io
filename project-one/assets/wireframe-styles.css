@@ -70,6 +70,16 @@ footer {
   background-color: #bada55;
   justify-content: right;
   display: flex;
-  align-items: flex-end;
   margin-top: 40px;
 }
+            footer img {
+              height: 95px;
+            }
+
+            footer .author-heading {
+              height: 40px;
+            }
+
+            footer .sources {
+              height: 100px;
+            }
