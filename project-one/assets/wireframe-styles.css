@@ -48,7 +48,7 @@ body {
           }
 
           .letter-box p {
-            height: 200px;
+            height: 300px;
             padding:0;
             background-color: #008282;
           }
@@ -56,6 +56,7 @@ body {
 .scrollbars {
   height: 150px;
   background-color: #ecca67;
+  margin-top: 40px;
 }
 footer {
 
