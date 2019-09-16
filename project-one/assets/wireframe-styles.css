@@ -19,8 +19,8 @@ body {
   height: 372px;
   width: 100%;
   padding: 0;
-  margin: 0;
   background-color: #FF0000;
+  margin-top: 50px;
 }
 
 .letter-box {
@@ -71,6 +71,7 @@ footer {
   justify-content: right;
   display: flex;
   align-items: flex-end;
+  margin-top: 40px;
 }
           footer img {
             height:84px;
