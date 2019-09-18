@@ -11,10 +11,12 @@
 }
 
 #gold-froggie {
+    /* FONT-VARIANT: JIS83; */
     position: fixed;
+    left: unset;
     right: 0px;
     top: 5%;
-    z-index: 2;
+    z-index: 3;
 }
 
 #red-froggie {
