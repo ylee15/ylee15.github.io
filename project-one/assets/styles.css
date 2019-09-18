@@ -19,12 +19,14 @@ body {
 .headline-box {
   padding: 0;
   background-color: #FF0000;
-  margin-left: 454px;
   width: 50%;
   margin-left: 50%
 }
 
           h2 {
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 500;
+            font-style: normal;
             margin: 0;
             padding: 0;
             font-size: 90px;
@@ -33,15 +35,17 @@ body {
           }
 
 .letter-box-Q {
-  height: 467px;
+  height: 400px;
   width: 100%;
   display: flex;
-  align-items: flex-end;
-  justify-content: left;
+  align-items: flex-start;
 }
 
           .letter-box-Q h1 {
-            line-height: 600px;
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 300;
+            font-style: book;
+            line-height: 200px;
             font-size: 600px;
             padding: 0;
             margin: 0;
@@ -50,11 +54,11 @@ body {
 
           .letter-box-Q p {
             text-align: right;
-            height: 195px;
-            width: 316px;
+            height: 250px;
+            width: 300px;
             padding:0;
             background-color: #008282;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
           }
 
           .letter-box-Q #button {
@@ -72,28 +76,31 @@ body {
   margin-top: 40px;
 }
           .letter-box-K p {
-            height: 195px;
-            width: 316px;
+            height: 250px;
+            width: 300px;
             padding:0;
+            margin: 0;
             background-color: #008282;
           }
 
           .letter-box-K h1 {
-            line-height: 400px;
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 200px;
             font-size: 600px;
             height: 467px;
             width: 483px;
             padding: 0;
-            margin: 0;
-            background-color: #03DBF3;
-            margin-bottom: 0;
+            margin-left: 80px;
+            margin-bottom: 100px;
           }
 
 .scrollbars {
   height: 150px;
-  width: 400px;
+  width: 300px;
   background-color: #ecca67;
-  margin-top: 40px;
+  margin-bottom: 90px;
   margin-left: 40px;
 }
 
