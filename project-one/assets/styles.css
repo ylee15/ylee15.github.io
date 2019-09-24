@@ -18,15 +18,14 @@ body {
 
 .headline-box {
   padding: 0;
-  background-color: #FF0000;
   width: 50%;
-  margin-left: 50%
+  margin-left: 50%;
 }
-
           h2 {
             font-family: itc-avant-garde-gothic-pro, sans-serif;
             font-weight: 500;
             font-style: normal;
+            color: #F8F6BE;
             margin: 0;
             padding: 0;
             font-size: 90px;
@@ -35,73 +34,88 @@ body {
           }
 
 .letter-box-Q {
-  height: 400px;
+  height: 340px;
   width: 100%;
   display: flex;
   align-items: flex-start;
+  position: relative;
+  margin-bottom: 100px;
 }
 
           .letter-box-Q h1 {
             font-family: itc-avant-garde-gothic-pro, sans-serif;
             font-weight: 300;
             font-style: book;
-            line-height: 200px;
+            color: #03DBF3;
+            line-height: 500px;
             font-size: 600px;
             padding: 0;
             margin: 0;
-            margin-bottom: 0;
           }
 
-          .letter-box-Q p {
-            text-align: right;
-            height: 250px;
-            width: 300px;
-            padding:0;
-            background-color: #008282;
-            margin-bottom: 30px;
+          .letter-box-Q img {
+            visibility: hidden;
+            position: absolute;
+            z-index: 99;
+            top: -5%;
+            left: -14%;
+          }
+
+          .letter-box-Q img.visible {
+            visibility: visible;
+
           }
 
           .letter-box-Q #button {
+            position: relative;
+            z-index: 100;
+            font-size: 400px;
             height: 43px;
             width: 43px;
-            background-color: #7EFF7E;
-            margin-left: 10px;
+            background-color: #EEE01B;
+            margin-right: 30px;
+            margin-top: 445px;
           }
 
-.letter-box-K {
+.letter-box-X {
   height: 467px;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 40px;
+  margin-left: 20px;
 }
-          .letter-box-K p {
-            height: 250px;
-            width: 300px;
+
+          .letter-box-X #info1 p {
             padding:0;
-            margin: 0;
             background-color: #008282;
           }
 
-          .letter-box-K h1 {
+          .letter-box-X h1 {
             font-family: itc-avant-garde-gothic-pro, sans-serif;
             font-weight: 300;
             font-style: normal;
-            line-height: 200px;
+            color: #03DBF3;
+            line-height: 80px;
             font-size: 600px;
             height: 467px;
-            width: 483px;
             padding: 0;
-            margin-left: 80px;
-            margin-bottom: 100px;
+            margin-left: 0;
+            margin-bottom: 0px;
+          }
+
+          .letter-box-X #info2 p {
+            text-align: right;
+            padding: 0;
+            background-color: #008282;
           }
 
 .scrollbars {
   height: 150px;
-  width: 300px;
   background-color: #ecca67;
+  margin-top: 80px;
   margin-bottom: 90px;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
           #capital {
@@ -114,9 +128,12 @@ body {
 
 footer {
   background-color: #bada55;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   display: flex;
-  margin-top: 40px;
-  margin-left: 300px;
+  align-items: center;
+  margin-top: 100px;
 }
             footer img {
               height: 95px;
