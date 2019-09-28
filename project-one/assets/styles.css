@@ -12,8 +12,8 @@ body {
 }
 
 .header {
-  height: 25px;
-  background-color: #5C0BD6;
+  height: 70px;
+  background-color: #31008D;
 }
 
 .headline-box {
@@ -23,23 +23,23 @@ body {
 }
           h2 {
             font-family: itc-avant-garde-gothic-pro, sans-serif;
-            font-weight: 500;
-            font-style: normal;
+            font-weight: 700;
+            font-style: bold;
+            letter-spacing: .1px;
             color: #F8F6BE;
-            margin: 0;
             padding: 0;
             font-size: 90px;
-            line-height: 90px;
+            line-height: 85px;
             text-align: right;
           }
 
 .letter-box-Q {
-  height: 340px;
+  height: 320px;
   width: 100%;
   display: flex;
   align-items: flex-start;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
           .letter-box-Q h1 {
@@ -47,7 +47,7 @@ body {
             font-weight: 300;
             font-style: book;
             color: #03DBF3;
-            line-height: 500px;
+            line-height: 550px;
             font-size: 600px;
             padding: 0;
             margin: 0;
@@ -57,13 +57,12 @@ body {
             visibility: hidden;
             position: absolute;
             z-index: 99;
-            top: -5%;
+            top: 2.9%;
             left: -14%;
           }
 
           .letter-box-Q img.visible {
             visibility: visible;
-
           }
 
           .letter-box-Q #button {
@@ -73,8 +72,8 @@ body {
             height: 43px;
             width: 43px;
             background-color: #EEE01B;
-            margin-right: 30px;
-            margin-top: 445px;
+            margin-left: 10px;
+            margin-top: 470px;
           }
 
 .letter-box-X {
@@ -82,16 +81,36 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  position: relative;
+  margin-top: 150px;
   margin-left: 20px;
 }
 
-          .letter-box-X #info1 p {
+          .letter-box-X .info p {
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 300;
+            font-style: book;
+            font-size: 14px;
+            color: #F8F6BE;
             padding:0;
-            background-color: #008282;
+          }
+
+          .letter-box-X img {
+            visibility: hidden;
+            position: absolute;
+            z-index: 99;
+            top: -7.5%;
+            left: 48.75%;
+          }
+
+          .letter-box-X img.visible {
+            visibility: visible;
           }
 
           .letter-box-X h1 {
+            position: relative;
+            right: 25px;
+            top: 160px;
             font-family: itc-avant-garde-gothic-pro, sans-serif;
             font-weight: 300;
             font-style: normal;
@@ -100,64 +119,114 @@ body {
             font-size: 600px;
             height: 467px;
             padding: 0;
-            margin-left: 0;
-            margin-bottom: 0px;
+            margin: 0px;
           }
 
-          .letter-box-X #info2 p {
+          .letter-box-X .info2 p {
+            position: relative;
+            right: 40px;
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 300;
+            font-style: book;
+            font-size: 14px;
+            color: #F8F6BE;
             text-align: right;
             padding: 0;
-            background-color: #008282;
           }
-
 .scrollbars {
-  height: 150px;
-  background-color: #ecca67;
-  margin-top: 80px;
-  margin-bottom: 90px;
-  margin-left: 0px;
-}
-
-          #capital {
-            background-color: #2003fc;
-          }
-
-          #lowercase {
-            background-color: #2003fc;
-          }
-
-footer {
-  background-color: #bada55;
-  font-family: itc-avant-garde-gothic-pro, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: flex;
-  align-items: center;
   margin-top: 100px;
 }
-            footer img {
-              height: 95px;
-              margin-right: 10px;
+            .scrollbars #capital {
+              height: 100px;
+              overflow-x: scroll;
+              overflow-y: hidden;
+              clear: both;
+              background-color: #2003fc;
+              color: #03DBF3;
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 70px;
+              letter-spacing: 3px;
             }
 
-            footer .author-heading {
+            .scrollbars #lowercase {
+              height: 100px;
+              overflow-x: scroll;
+              overflow-y: hidden;
+              clear: both;
+              background-color: #2003fc;
+              color: #03DBF3;
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 70px;
+              letter-spacing: 3px;
+            }
+
+            ::-webkit-scrollbar {
+              width: 7px;
+              height: 7.5px;
+            }
+
+            ::-webkit-scrollbar-track {
+              background-color: #2003fc;
+            }
+
+            ::-webkit-scrollbar-thumb {
               background-color: #ffffff;
             }
 
+footer {
+  background-color: #31008D;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+            footer img {
+              height: 150px;
+              margin-right: 12px;
+              margin-left: 12px;
+            }
+
+            footer .author-heading {
+              margin-top: 48px;
+              margin-left: 10px;
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              color: #AD8CEB;
+            }
+
             footer .author-heading h3 {
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              color: #F8F6BE;
               padding: 0;
               margin: 0;
             }
 
             footer .author-heading h4 {
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              color: #F8F6BE;
               padding: 0;
               margin: 0;
             }
 
             footer .author-heading #intro {
-              height: 20px;
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              height: 60px;
+              width: 550px;
             }
 
             footer .author-heading #citations {
+              font-family: itc-avant-garde-gothic-pro, sans-serif;
+              font-weight: 500;
+              font-style: normal;
               height: 20px;
             }
