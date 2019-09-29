@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .container {
@@ -16,7 +16,19 @@ body {
   background-color: #31008D;
 }
 
+.click {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: #AD8CEB;
+  line-height: 65px;
+}
+
 .headline-box {
+  position: relative;
+  top: 75px;
+  z-index: 3;
   padding: 0;
   width: 50%;
   margin-left: 50%;
@@ -29,7 +41,7 @@ body {
             color: #F8F6BE;
             padding: 0;
             font-size: 90px;
-            line-height: 85px;
+            line-height: 95px;
             text-align: right;
           }
 
@@ -39,7 +51,8 @@ body {
   display: flex;
   align-items: flex-start;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 85px;
+  margin-left: 20px;
 }
 
           .letter-box-Q h1 {
@@ -47,7 +60,7 @@ body {
             font-weight: 300;
             font-style: book;
             color: #03DBF3;
-            line-height: 550px;
+            line-height: 600px;
             font-size: 600px;
             padding: 0;
             margin: 0;
@@ -57,7 +70,7 @@ body {
             visibility: hidden;
             position: absolute;
             z-index: 99;
-            top: 2.9%;
+            top: 10.5%;
             left: -14%;
           }
 
@@ -72,9 +85,22 @@ body {
             height: 43px;
             width: 43px;
             background-color: #EEE01B;
-            margin-left: 10px;
-            margin-top: 470px;
+            margin-left: 6px;
+            margin-top: 495px;
           }
+
+.info-heading {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  letter-spacing: .1px;
+  color: #F8F6BE;
+  padding: 0;
+  font-size: 80px;
+  position: relative;
+  left: 15px;
+  top: 210px;
+}
 
 .letter-box-X {
   height: 467px;
@@ -82,7 +108,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 150px;
+  margin-top: 130px;
   margin-left: 20px;
 }
 
@@ -99,7 +125,7 @@ body {
             visibility: hidden;
             position: absolute;
             z-index: 99;
-            top: -7.5%;
+            top: -7%;
             left: 48.75%;
           }
 
@@ -134,7 +160,9 @@ body {
             padding: 0;
           }
 .scrollbars {
-  margin-top: 100px;
+  position: relative;
+  top: 120px;
+  background-color: #31008D;
 }
             .scrollbars #capital {
               height: 100px;
@@ -147,7 +175,7 @@ body {
               font-weight: 500;
               font-style: normal;
               font-size: 70px;
-              letter-spacing: 3px;
+              letter-spacing: 5px;
             }
 
             .scrollbars #lowercase {
@@ -161,7 +189,7 @@ body {
               font-weight: 500;
               font-style: normal;
               font-size: 70px;
-              letter-spacing: 3px;
+              letter-spacing: 5px;
             }
 
             ::-webkit-scrollbar {
@@ -174,19 +202,20 @@ body {
             }
 
             ::-webkit-scrollbar-thumb {
-              background-color: #ffffff;
+              background-color: #EEE01B;
             }
 
 footer {
   background-color: #31008D;
+  height: 570px;
   display: flex;
-  align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
             footer img {
               height: 150px;
               margin-right: 12px;
-              margin-left: 12px;
+              margin-left: 18px;
+              margin-top: 50px;
             }
 
             footer .author-heading {
