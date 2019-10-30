@@ -32,15 +32,16 @@ div.progress {
 }
 
 .header {
-  position: fixed;
-  right: 30px;
+  position: relative;
+  top: 20px;
+  left: 650px;
 }
 
 .title {
   background-color: #4D15CD;
   position: relative;
   top: 1%;
-  right: -330px;
+  right: -345px;
   text-align: right;
   width: 400px;
 
@@ -57,7 +58,7 @@ div.progress {
 .saturn,
 .uranus,
 .neptune {
-  background-color: #03DBF3;
+  border: solid 1px green;
   border-radius: .5em;
   height: 206px;
   width: 214px;
@@ -85,7 +86,7 @@ div.progress {
 }
 
           .sun-box {
-            background-color: #000000;
+            border: solid 1px green;
             border-radius: .5em;
             width: 58px;
             padding: 7px;
@@ -131,7 +132,7 @@ div.progress {
   width: 214px;
 }
                     .mercury-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 95px;
                       display: flex;
@@ -147,7 +148,7 @@ div.progress {
   width: 214px;
 }
                     .venus-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 73px;
                       display: flex;
@@ -163,7 +164,7 @@ div.progress {
   width: 214px;
 }
                     .earth-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 72px;
                       display: flex;
@@ -180,7 +181,7 @@ div.progress {
 }
 
                     .mars-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 69px;
                       display: flex;
@@ -196,7 +197,7 @@ div.progress {
   width: 214px;
 }
                     .jupiter-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 85px;
                       display: flex;
@@ -213,7 +214,7 @@ div.progress {
 }
 
                     .saturn-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 82px;
                       display: flex;
@@ -229,7 +230,7 @@ div.progress {
   width: 214px;
 }
                     .uranus-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 85px;
                       display: flex;
@@ -245,7 +246,7 @@ div.progress {
   width: 214px;
 }
                     .neptune-box {
-                      background-color: #000000;
+                      border: solid 1px green;
                       border-radius: .5em;
                       width: 94px;
                       display: flex;
