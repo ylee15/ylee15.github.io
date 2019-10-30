@@ -1,0 +1,255 @@
+div.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #333;
+  z-index: 9999999;
+  transition: color 0.5s;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.large-container {
+  width: 768px;
+  height: 700vh;
+  background-color: lightblue;
+  margin: auto;
+}
+
+.container {
+  width: 768px;
+  background-color: lightblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  position: fixed;
+  right: 30px;
+}
+
+.title {
+  background-color: #4D15CD;
+  position: relative;
+  top: 1%;
+  right: -330px;
+  text-align: right;
+  width: 400px;
+
+
+
+}
+
+.sun,
+.mercury,
+.venus,
+.earth,
+.mars,
+.jupiter,
+.saturn,
+.uranus,
+.neptune {
+  background-color: #03DBF3;
+  border-radius: .5em;
+  height: 206px;
+  width: 214px;
+  position: relative;
+  padding-top: 7px;
+  padding-left: 7px;
+  visibility: hidden;
+}
+          .sun {
+            position: relative;
+            top:2%;
+            left:3%;
+          }
+
+.sun.visible,
+.mercury.visible,
+.venus.visible,
+.earth.visible,
+.mars.visible,
+.jupiter.visible,
+.saturn.visible,
+.uranus.visible,
+.neptune.visible {
+  visibility: visible;
+}
+
+          .sun-box {
+            background-color: #000000;
+            border-radius: .5em;
+            width: 58px;
+            padding: 7px;
+            visibility: visible;
+          }
+
+          .sun-box.invisible,
+          .mercury-box.invisible,
+          .venus-box.invisible,
+          .earth-box.invisible,
+          .mars-box.invisible,
+          .jupiter-box.invisible,
+          .saturn-box.invisible,
+          .uranus-box.invisible,
+          .neptune-box.invisible {
+            visibility: hidden;
+          }
+
+          .caption {
+            display: flex;
+            align-items: flex-start;
+          }
+
+          .sun h3,
+          .mercury h3,
+          .venus h3,
+          .earth h3,
+          .mars h3,
+          .jupiter h3,
+          .saturn h3,
+          .uranus h3,
+          .neptune h3 {
+            color: #ffffff;
+            line-height: 12.5px;
+            margin: 0;
+            margin-right: 8px;
+          }
+
+.one {
+  position: relative;
+  top: 3%;
+  right: -50%;
+  width: 214px;
+}
+                    .mercury-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 95px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.two {
+  position: relative;
+  top: 7%;
+  right: -55%;
+  width: 214px;
+}
+                    .venus-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 73px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.three {
+  position: relative;
+  top: 14%;
+  right: -55%;
+  width: 214px;
+}
+                    .earth-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 72px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.four {
+  position: relative;
+  top: 23%;
+  right: -55%;
+  width: 214px;
+}
+
+                    .mars-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 69px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.five {
+  position: relative;
+  top: 30%;
+  right: -5%;
+  width: 214px;
+}
+                    .jupiter-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 85px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.six {
+  position: relative;
+  top: 40%;
+  right: -5%;
+  width: 214px;
+}
+
+                    .saturn-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 82px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.seven {
+  position: relative;
+  top: 50%;
+  right: -15%;
+  width: 214px;
+}
+                    .uranus-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 85px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }
+
+.eight {
+  position: relative;
+  top: 65%;
+  right: -15%;
+  width: 214px;
+}
+                    .neptune-box {
+                      background-color: #000000;
+                      border-radius: .5em;
+                      width: 94px;
+                      display: flex;
+                      align-items: flex-start;
+                      padding: 7px;
+                      visibility: visible;
+                    }

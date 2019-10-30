@@ -1,0 +1,67 @@
+.container {
+  background-color: #AD8CEB;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header #back-button{
+  position: fixed;
+  top: 30px;
+  left: 20px;
+}
+
+.profile-card {
+  background-color: #03DBF3;
+  height: 610px;
+  width: 610px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+
+          .profile-card h1 {
+            position: relative;
+            top: 40%;
+          }
+
+.planets {
+  position: relative;
+  bottom: -160px;
+  left:12%;
+  width:35em;
+  display: flex;
+  overflow-x: scroll;
+}
+
+          .mercury {
+            margin: 50px;
+          }
+
+          .venus {
+            margin: 50px;
+          }
+
+          .earth {
+            margin: 50px;
+          }
+
+          .mars {
+            margin: 50px;
+          }
+
+          .jupiter {
+            margin: 50px;
+          }
+
+          .saturn {
+            margin: 50px;
+          }
+
+          .uranus {
+            margin: 50px;
+          }
+
+          .neptune {
+            margin: 50px;
+          }
