@@ -1,6 +1,28 @@
+.large-container {
+  width: 768px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+#project-one{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#project-two{
+  text-align: center;
+  margin-top: 50px;
+}
+
 a {
   display: block;
   border: solid 2px #000;
+  width: 160px;
   padding: 10px;
-  margin: 10px; 
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
