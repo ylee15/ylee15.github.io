@@ -4,9 +4,13 @@ div.progress {
   left: 0;
   width: 0;
   height: 4px;
-  background-color: #333;
+  background-color: #fff;
   z-index: 9999999;
   transition: color 0.5s;
+}
+
+.body {
+  background-color: #000;
 }
 
 .invisible {
@@ -18,36 +22,43 @@ div.progress {
 }
 
 .large-container {
+  background-image: url("Solar-System-Image.png");
   width: 768px;
-  height: 700vh;
-  background-color: lightblue;
-  margin: auto;
-}
-
-.container {
-  width: 768px;
-  background-color: lightblue;
+  height: 580vh;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:auto;
 }
 
 .header {
   position: relative;
   top: 20px;
-  left: 650px;
+  left: 635px;
 }
+          .header a {
+            font-family: Avenir Next, sans-serif;
+            font-style: normal;
+            font-size: 12pt;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+          }
 
 .title {
-  background-color: #4D15CD;
+  font-family: Avenir, sans-serif;
+  line-height: 30px;
+  color: white;
   position: relative;
   top: 1%;
-  right: -345px;
+  right: -45px;
   text-align: right;
-  width: 400px;
-
-
-
+  width: 700px;
 }
+.title h2 {
+  font-size: 40px;}
+
+.title h1 {
+  font-family: Nasalization;
+  font-size: 75px;}
 
 .sun,
 .mercury,
@@ -58,7 +69,7 @@ div.progress {
 .saturn,
 .uranus,
 .neptune {
-  border: solid 1px green;
+  border: solid 1px #fff;
   border-radius: .5em;
   height: 206px;
   width: 214px;
@@ -71,6 +82,59 @@ div.progress {
             position: relative;
             top:2%;
             left:3%;
+          }
+
+          .sun p,
+          .mercury p,
+          .venus p,
+          .earth p,
+          .mars p,
+          .jupiter p,
+          .saturn p,
+          .uranus p,
+          .neptune p {
+          font-family: Avenir Next, sans-serif;
+          font-weight: 500;
+          font-size: 12pt;
+          color: #AFFF74;
+          margin-top: 0;
+          margin-left: 8px;
+          margin-right: 8px;
+          }
+
+          .mercury a,
+          .venus a,
+          .earth a,
+          .mars a,
+          .jupiter a,
+          .saturn a,
+          .uranus a,
+          .neptune a {
+            font-family: Avenir Next Condensed, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            position: absolute;
+            bottom: 10px;
+            left: 162px;
+            border: solid 1px #fff;
+            border-radius: .3em;
+            padding: 4px;
+          }
+
+
+
+          .mercury a:hover,
+          .venus a:hover,
+          .earth a:hover,
+          .mars a:hover,
+          .jupiter a:hover,
+          .saturn a:hover,
+          .uranus a:hover,
+          .neptune a:hover {
+            background-color: red;
+            color: #fff;
+            cursor: pointer;
           }
 
 .sun.visible,
@@ -86,11 +150,24 @@ div.progress {
 }
 
           .sun-box {
-            border: solid 1px green;
+            border: solid 1px #fff;
             border-radius: .5em;
-            width: 58px;
-            padding: 7px;
+            width: 56px;
+            padding: 10px;
             visibility: visible;
+          }
+
+          .sun-box:hover,
+          .mercury-box:hover,
+          .venus-box:hover,
+          .earth-box:hover,
+          .mars-box:hover,
+          .jupiter-box:hover,
+          .saturn-box:hover,
+          .uranus-box:hover,
+          .neptune-box:hover
+          {
+            background-color: red;
           }
 
           .sun-box.invisible,
@@ -119,10 +196,27 @@ div.progress {
           .saturn h3,
           .uranus h3,
           .neptune h3 {
+            font-family: Avenir Next Condensed, sans-serif;
             color: #ffffff;
             line-height: 12.5px;
             margin: 0;
             margin-right: 8px;
+          }
+
+          .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+
+            border-top: 12px solid #fff;
+            transform: rotate(0deg);
+            transition: .5s;
+          }
+
+          .arrow-down.up-animation {
+            transform: rotate(180deg);
+            transition: .5s;
           }
 
 .one {
@@ -132,94 +226,94 @@ div.progress {
   width: 214px;
 }
                     .mercury-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 95px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
 .two {
   position: relative;
   top: 7%;
-  right: -55%;
+  right: -65%;
   width: 214px;
 }
                     .venus-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 73px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
 .three {
   position: relative;
   top: 14%;
-  right: -55%;
+  right: -68%;
   width: 214px;
 }
                     .earth-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 72px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
 .four {
   position: relative;
-  top: 23%;
-  right: -55%;
+  top: 20%;
+  right: -70%;
   width: 214px;
 }
 
                     .mars-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 69px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
 .five {
   position: relative;
   top: 30%;
-  right: -5%;
+  right: -2%;
   width: 214px;
 }
                     .jupiter-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 85px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
 .six {
   position: relative;
   top: 40%;
-  right: -5%;
+  right: -2%;
   width: 214px;
 }
 
                     .saturn-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 82px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
@@ -230,12 +324,12 @@ div.progress {
   width: 214px;
 }
                     .uranus-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 85px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
 
@@ -246,11 +340,11 @@ div.progress {
   width: 214px;
 }
                     .neptune-box {
-                      border: solid 1px green;
+                      border: solid 1px #fff;
                       border-radius: .5em;
                       width: 94px;
                       display: flex;
                       align-items: flex-start;
-                      padding: 7px;
+                      padding: 10px;
                       visibility: visible;
                     }
