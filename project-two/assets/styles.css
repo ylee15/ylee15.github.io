@@ -45,7 +45,7 @@ div.progress {
 
 .title {
   font-family: Avenir, sans-serif;
-  line-height: 30px;
+  line-height: 20px;
   color: white;
   position: relative;
   top: 1%;
@@ -57,9 +57,8 @@ div.progress {
   font-size: 40px;}
 
 .title h1 {
-  font-family: Avenir, sans-serif;
-  font-weight: bold;
-  font-size: 75px;}
+  font-family: Nasalization;
+  font-size: 80px;}
 
 .sun,
 .mercury,
