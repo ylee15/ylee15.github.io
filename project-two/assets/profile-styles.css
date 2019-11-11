@@ -1,5 +1,9 @@
+.body {
+  background-color: #000;
+}
+
 .container {
-  background-color: #AD8CEB;
+  background-image: url("Planet-Profiles-Background.png");
   width: 768px;
   margin-left: auto;
   margin-right: auto;
@@ -8,49 +12,92 @@
 .header {
   position: relative;
   top: 20px;
-  left: 20px;
+  left: 685px;
   right: 0px;
-  text-align: center;
-  border: solid 1px #fff;
-  border-radius: 3.5px;
-  width: 3em;
 }
+        .header a {
+          font-family: Avenir Next, sans-serif;
+          font-size: 12pt;
+          font-weight: 500;
+          color: #fff;
+          text-decoration: none;
+        }
 
 .profile-card {
-  background-color: #AD8CEB;
+  position: absolute;
+  font-family: Avenir, sans-serif;
   border: solid 2px #fff;
   border-radius: 1em;
   height: 610px;
   width: 610px;
   position: relative;
-  top: 50px;
+  top: 40px;
   left: 80px;
   display: flex;
 }
+          .profile-card img {
+            position: relative;
+            left: -40px;
+          }
+
+          .profile-card .fact {
+            height: 240px;
+            position: relative;
+            left: -415px;
+            top: 30px;
+            z-index: 1;
+          }
 
           .profile-card h1 {
+            color: #fff;
             position: relative;
-            font-size: 90px;
-            top: 30%;
-            left: 20px;
+            font-size: 100px;
+            height: 100px;
+            top: 20%;
+            left: -370px;
+            z-index: 10;
           }
 
-          .profile-card p {
-            position: relative;
-            top: 55%;
-            left: -50px;
-            width: 300px;
-          }
-
-.planets {
-  position: relative;
-  bottom: -160px;
-  left:12%;
-  width:35em;
+.about {
+  height: 100px;
+  font-family: Avenir, sans-serif;
   display: flex;
-  overflow-x: scroll;
+  color: #fff;
+  position: relative;
+}
+          .about h2 {
+            font-size: 30px;
+            position: relative;
+            top: -250px;
+            left: 115px;
+          }
+
+          .about p {
+            width: 250px;
+            position: relative;
+            top: -240px;
+            left: 170px;
+          }
+
+
+.wrapper {
+  margin-top: 0px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
 }
 
-          .planets a {
-            margin-left: 80px;
-          }
+a {
+  font-family: Avenir Next Condensed, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  opacity: .75;
+}
+
+.wrapper a:hover {
+  color: red;
+  opacity: 1;
+}
