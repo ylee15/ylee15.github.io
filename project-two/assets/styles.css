@@ -24,7 +24,7 @@ div.progress {
 .large-container {
   background-image: url("Solar-System-Image.png");
   width: 768px;
-  height: 580vh;
+  height: 5000px;
   margin-left: auto;
   margin-right:auto;
 }
@@ -57,7 +57,8 @@ div.progress {
   font-size: 40px;}
 
 .title h1 {
-  font-family: Nasalization;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
   font-size: 75px;}
 
 .sun,
